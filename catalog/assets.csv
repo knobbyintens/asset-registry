@@ -1,0 +1,13 @@
+asset_id,asset_name,vendor,license_tier,contains_pii,redistribution,classification,contract_expiry,annual_fee_usd,notes
+AST-1001,Grid Load Telemetry,Northwind Metering,A,FALSE,permitted,internal,2027-04-30,48000,15-minute interval load series for the balancing authority.
+AST-1002,Consumer Billing Snapshot,Harborline Utilities,B,FALSE,restricted,confidential,2027-02-28,92000,"Monthly billing aggregates, account numbers masked at source."
+AST-1003,Field Crew Dispatch Log,Northwind Metering,C,FALSE,permitted,internal,2027-07-31,36000,Work-order dispatch records; crew identifiers are role codes.
+AST-1004,Customer Contact Enrichment,Vantage Data Brokers,C,TRUE,restricted,confidential,2027-06-30,154000,Appended contact attributes for customer success outreach.
+AST-1005,Market Pricing Feed,Brightwater Research,D,FALSE,prohibited,confidential,2027-01-31,210000,Vendor forbids any onward distribution of the price curves.
+AST-1006,Meter Asset Inventory,Copperline Systems,D,FALSE,permitted,internal,2027-09-30,67000,Installed meter register; tier D without PII or restrictions.
+AST-1007,Outage Incident Archive,Gridline Archives,A,FALSE,permitted,public,2026-10-10,12000,Historical outage log; subscription lapsed before renewal.
+AST-1008,Subscriber PII Vault,Vantage Data Brokers,C,TRUE,permitted,confidential,2026-09-15,189000,Restricted subscriber records; contract renewal is overdue.
+AST-1009,Regional Weather Feed,SkyMetrics,C,FALSE,restricted,internal,2027-03-31,24000,Hourly forecasts used by the outage prediction model.
+AST-1010,Transformer Health Index,Copperline Systems,A,TRUE,permitted,confidential,2027-11-30,88000,Derived asset-health scores; tier A licence permits PII use.
+AST-1011,Legacy Load Profiles,Gridline Archives,B,FALSE,restricted,internal,2026-09-30,15000,Retired load shapes retained for back-testing; lapsed contract.
+AST-1012,Fleet GPS Trace,Skyline Telemetry,B,TRUE,restricted,confidential,2027-12-31,76000,Vehicle trace points; driver identity is tokenised.
